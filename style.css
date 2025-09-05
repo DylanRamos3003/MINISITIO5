@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    font-family: poppins;
+    padding: 5px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.seccion-datos{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 25px;
+}
+h2{
+    margin: 25px;
+}
+#imagen-datos{
+    width: 100%;
+}
+a{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.seccion-banner{
+    background-image: url("https://i.ibb.co/hRwzh7hs/FIRMA-CONTA.jpg") ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.seccion-destacados{
+    display: grid;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.caja-destacada{
+    padding: 5px;
+    text-align: center;
+}
+a.hover{
+    background-color: red;
+}
+.caja-destacada:hover{
+    background-color: yellow;
+    font-style: italic;
+}
